@@ -1,0 +1,95 @@
+.alternada{
+    list-style-type: square;
+}
+
+
+#tabela img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+body {
+    background-color: #bebebd;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1 {
+    color: #1f2a35;
+    text-align: center;
+}
+
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.paises {
+   text-align: center;
+}
+ul.alternada li {
+    margin-bottom: 10px;
+}
+
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+a {
+    color: #5c8cc0;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #975661;
+}
+
+
+#tabela img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+table {
+    height: 300px;
+    width: 32%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f8f9fa;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+
+th {
+    background-color: #2e2f31;
+    color: white;
+    font-weight: bold;
+}
+
+
+tr:nth-child(even) {
+    background-color: #e3e6e8;
+}
+
+
+tr:hover {
+    background-color: #cfd8dc;
+}
